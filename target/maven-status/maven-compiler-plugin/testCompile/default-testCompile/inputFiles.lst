@@ -1,0 +1,5 @@
+/opt/vprofile-project-ci-jenkins/src/test/java/com/visualpathit/account/modelTest/RoleTest.java
+/opt/vprofile-project-ci-jenkins/src/test/java/com/visualpathit/account/modelTest/UserTest.java
+/opt/vprofile-project-ci-jenkins/src/test/java/com/visualpathit/account/controllerTest/UserControllerTest.java
+/opt/vprofile-project-ci-jenkins/src/test/java/com/visualpathit/account/controllerTest/SampleTest.java
+/opt/vprofile-project-ci-jenkins/src/test/java/com/visualpathit/account/setup/StandaloneMvcTestViewResolver.java
