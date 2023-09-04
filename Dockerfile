@@ -4,7 +4,7 @@ RUN apk update && apk add bash
 
 WORKDIR /app
 
-COPY /target/vprofile-v2.jar
+COPY /target/vprofile-v2.jar /app
 
 EXPOSE 8082
 
