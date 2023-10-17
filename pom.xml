@@ -31,6 +31,19 @@
 	     <NEXUSPORT>8081</NEXUSPORT>
 
     </properties>
+	‹distributionManagement>
+<repository>
+<id>maven-releases</id>
+<! -- CHANGE HERE by your team nexus server -->
+<url>http://54.236.30.202:8081/repository/maven-releases/</url>
+</repository>
+<snapshotRepository>
+<id>maven-snapshots</id>
+<! -- CHANGE HERE by your team nexus server -->
+<url>http://54.236.30.202:8081/repository/maven-snapshots/</url>
+</snapshotRepository>
+</distributionManagement
+			
 
     <dependencies>
         <dependency>
@@ -201,9 +214,12 @@
         </plugins>
     </build>
 	<repositories>
+		
     <repository>
-      <id>${NEXUS-GRP-REPO}</id>
-      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
+      <id>maven-releases</id>
+      <name>maven-releases</name>
+      <url>http://54.236.30.202:8081/repository/maven-releases/</url>
     </repository>
+		
   </repositories>
 </project>
