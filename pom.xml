@@ -33,14 +33,14 @@
     </properties>
 	<distributionManagement>
 <repository>
-<id>maven-releases</id>
-<! -- CHANGE HERE by your team nexus server -->
-<url>http://54.236.30.202:8081/repository/maven-releases/</url>
+   <id>maven-releases</id>
+   <! -- CHANGE HERE by your team nexus server -->
+   <url>http://54.236.30.202:8081/repository/maven-releases/</url>
 </repository>
 <snapshotRepository>
-<id>maven-snapshots</id>
-<! -- CHANGE HERE by your team nexus server -->
-<url>http://54.236.30.202:8081/repository/maven-snapshots/</url>
+  <id>maven-snapshots</id>
+  <! -- CHANGE HERE by your team nexus server -->
+  <url>http://54.236.30.202:8081/repository/maven-snapshots/</url>
 </snapshotRepository>
 </distributionManagement>
 			
